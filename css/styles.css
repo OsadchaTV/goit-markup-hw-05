@@ -512,6 +512,76 @@ img {
   fill: #f4f4fd;
 }
 
+.footer-form-subscribe {
+  display: block;
+  margin-left: 80px;
+}
+
+.text-subscribe {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+
+.form-subscribe {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 24px;
+}
+
+.form-input {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 264px;
+  height: 40px;
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  font-weight: 400;
+}
+
+.form-input::placeholder {
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  /* padding-left: 16px; */
+}
+
+.footer-form-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: #ffffff;
+  border-radius: 4px;
+  padding: 8px 24px;
+  width: 100%;
+  height: 40px;
+  background: #4d5ae5;
+  cursor: pointer;
+}
+
+.footer-form-icon {
+  margin-left: 16px;
+}
+
+.footer-form-button:hover,
+.footer-form-button:focus {
+  background-color: #404bbf;
+}
+
 /* ==========BACKDROP STYLES========== */
 
 .backdrop {
