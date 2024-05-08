@@ -649,6 +649,10 @@ img {
   border: none;
 }
 
+.modal-close-btn:hover svg {
+  fill: #ffffff;
+}
+
 .modal-close-btn-icon {
   fill: #2e2f42;
   transition-property: fill;
@@ -787,7 +791,7 @@ img {
 .form-checkbox:checked + .form-checkbox-label .form-own-checkbox {
   color: #f4f4fd;
   background-color: #404bbf;
-  border-color: none;
+  border: none;
 }
 
 .form-checkbox:focus + .form-checkbox-label .form-own-checkbox {
